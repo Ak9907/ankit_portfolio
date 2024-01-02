@@ -67,6 +67,9 @@ section{
     
     transform: translateY(0) scale(1);
 }
+li {
+    list-style: square;
+}
 
 //controlls
 .controlls{
@@ -363,9 +366,9 @@ padding: 0 2rem;
 
 // Timeline
 .timeline{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 2rem;
+    // display: grid;
+        // grid-template-columns: repeat(2, 1fr);
+        // grid-gap: 2rem;
     padding-bottom: 3rem;
     .timeline-item{
         position: relative;
